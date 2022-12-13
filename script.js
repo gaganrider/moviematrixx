@@ -1094,15 +1094,4 @@ tilesp4b5("images/paranormal activity.jpg","Paranormal Activity","She.Hulk.Attor
 
 
 
-// gsap.from(".tittle", { x: 300, y: 300, scale: 4, delay: 6, duration: 5 });
-// gsap.from("#p1",{x:1000,duration:2})
-// gsap.from(".box",{x:750,y:200,scale:2,skew:2,rotationX:360,rotationY:360, rotationZ:360,fill:"yellow",backgroundColor:'green', stagger:1, duration:1});
-const slide = gsap.timeline({ repeat: -1, defaults: { duration: 1.5 } });
-slide
-  .to("#p1", { x: -1000 }, "+=4")
-  .to("#p2", { x: -1000 }, "-=1.5")
-  .to("#p3", { x: -1000 }, "+=4")
-  .to("#p4", { x: -1000 }, "+=4")
-  .to("#p5", { x: -1000 }, "+=4")
-  .to("#p6", { x: -1000 }, "+=4")
-  .to("#p1", { x: -1000 }, "+=4");
+
